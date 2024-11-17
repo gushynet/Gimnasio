@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <h1 class="denominacion">Denominacion: {{denominacion}}</h1>
+    <p>Grupo Muscular: {{GrupoMuscular}}</p>
+   
+  </div>
+
+  <ion-button expand="block" (click) = "gotoMisEjercicios()">Mostrar ejercicios</ion-button>
+</ion-content>
